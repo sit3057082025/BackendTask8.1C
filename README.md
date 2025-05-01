@@ -93,6 +93,6 @@ Body: x-www-form-urlencoded
 # In Sample Android app:
 - Use JsonRequest or other tools:
 
-<img src="response_directmodel.png" alt="Android App Screenshot" width="200">
+<img src="response_directmodel.png" alt="Android App Screenshot" width="500">
 
-<img src="response_pipeline.png" alt="Android App Screenshot" width="200">
+<img src="response_pipeline.png" alt="Android App Screenshot" width="500">
