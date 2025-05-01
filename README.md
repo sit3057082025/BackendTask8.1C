@@ -45,7 +45,7 @@ https://github.com/sit3057082025/BackendApiLLM_T6.1D
 
    - It will ask for hugging face token, provide and press enter. Then select Y.
      
-## 5. To run the code: 
+## 5. To run the code (In Terminal): 
 ```python main-directModel.py```
 
 or 
