@@ -32,9 +32,9 @@ def prepareLlamaBot():
     # Load model with quantization
     model = AutoModelForCausalLM.from_pretrained(
         MODEL,
-        device_map="auto",
-        # quantization_config=quantization_config,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
+        # device_map="auto",
+        # # quantization_config=quantization_config,
+        # torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
     )
 
     print("Model and tokenizer loaded successfully.")
