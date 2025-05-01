@@ -47,7 +47,9 @@ https://github.com/sit3057082025/BackendApiLLM_T6.1D
      
 ## 5. To run the code: 
 ```python main-directModel.py```
+
 or 
+
 ```python main-pipeline.py```
 
 
@@ -66,10 +68,7 @@ or
 4. Huggingface Transformers https://huggingface.co/docs/transformers/en/index
 
 Further references (From Previous)
-[https://github.com/sit3057082024/T-6.1D](https://github.com/sit3057082025/T-8.1C)
-
-
-
+[https://github.com/sit3057082025/T-8.1C](https://github.com/sit3057082025/T-8.1C)
 
 
 # To retrieve check response:
