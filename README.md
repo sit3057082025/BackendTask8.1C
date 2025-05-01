@@ -1,13 +1,16 @@
 # Files
 Two files are present, use the file that works for you.
+## main-directModel.py
+## main-pipeline.py
 
 You can explore code from previous year from here:
 https://github.com/sit3057082025/T-8.1C
-
 Readme file is useful.
 
 # Instructions for this file:
 - Almost similar to previous setups as in Task6.1D Backend code setup.
+- Detailed steps are in ReadME of this repo:
+https://github.com/sit3057082025/BackendApiLLM_T6.1D
 
 # Create virtual Env
 - python -m venv venv
