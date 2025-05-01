@@ -75,7 +75,7 @@ Further references (From Previous)
 ## Using curcl in terminal PS:
 - PS D:\> curl.exe -X POST http://localhost:5000/chat -d "userMessage=Where is Australia?"
   
-<img src="curl.png" alt="Android App Screenshot" width="500">
+<img src="curl.png" alt="Android App Screenshot" width="800">
 
 ## using PostMan
 METHOD: POST
@@ -85,7 +85,7 @@ key: userMessage
 Value: Where is Australia?
 
 
-<img src="postman.png" alt="Android App Screenshot" width="500">
+<img src="postman.png" alt="Android App Screenshot" width="800">
 
 
 # In Sample Android app:
