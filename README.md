@@ -1,31 +1,69 @@
+# Backend Code For Task 8.1C 
+For frontend sample android app: https://github.com/dgdeakin/Task8.1CAndroidAppExample
+
 # Files
 Two files are present, use the file that works for you.
-## main-directModel.py
-## main-pipeline.py
+## 1. main-directModel.py
+## 2. main-pipeline.py
 
 You can explore code from previous year from here:
-https://github.com/sit3057082025/T-8.1C
+https://github.com/sit3057082025/T-8.1C. 
 Readme file is useful.
 
-# Instructions for this file:
+# Instructions:
 - Almost similar to previous setups as in Task6.1D Backend code setup.
 - Detailed steps are in ReadME of this repo:
 https://github.com/sit3057082025/BackendApiLLM_T6.1D
 
-# Create virtual Env
-- python -m venv venv
-- Activate virtual environment
-- Then install as below.
+## 1. First clone the repo or download to your local folder.
+## 2. Run terminal in the project folder.
+   - Make sure python is installed. https://www.python.org/downloads/
+   - Create Virtual environment using this in terminal: ```python -m venv venv```
+   - venv folder will be created.
+   - now activate virtual environment
+     - For MAC:
+        ```source venv/bin/activate```
+     - For Windows PS:
+       ```.\venv\Scripts\Activate.ps1```
+## 3. Now install the libraries
+   - ```pip install Flask```
+     (source: https://flask.palletsprojects.com/en/stable/installation/)
+   - ```pip install accelerate```
+   - ```pip install transformers```
+     (source: https://pypi.org/project/transformers/)
+   - ```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126```
+     (source: https://pytorch.org/get-started/locally/)
+## 4. Settings with HuggingFace
+   - Signup for Huggingface Account here: https://huggingface.co/
+   - Create access token from here: https://huggingface.co/settings/tokens
+   - Get Model "google/gemma-3-1b-it" from https://huggingface.co/google/gemma-3-1b-it.
+      Acknowledge licence.
+   <img src="acknowledge_licence.png" width="700" alt="Description">
 
-# pip installs
-- pip install Flask
-- pip install transformers
-- pip install accelerate
+   - Then run this in terminal:
+     ```huggingface-cli login```
 
-For Pytorch:
-- pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+   - It will ask for hugging face token, provide and press enter. Then select Y.
+     
+## 5. To run the code: python main.py (or other file names)
 
-(Source: https://pytorch.org/get-started/locally/)
+
+# Troubleshooting
+1. port 5000 may not be available sometimes, use different post like 5001. Change in android app as well the port number.
+2. Make sure to run  "huggingface-cli login" command in terminal and provide token.
+3. Make sure to acknowledge licence in the model site such as https://huggingface.co/google/gemma-3-1b-it
+4. Select most permissions while creating access token.
+5. Try with different models based on quick access. https://huggingface.co/models
+6. Use small models.
+
+# Good to know about:
+1. Python https://www.python.org/
+2. Virtual Environments https://docs.python.org/3/library/venv.html
+3. Flask https://flask.palletsprojects.com/en/stable/
+4. Huggingface Transformers https://huggingface.co/docs/transformers/en/index
+
+Further references (From Previous)
+[https://github.com/sit3057082024/T-6.1D](https://github.com/sit3057082025/T-8.1C)
 
 
 # To Run the Code:
