@@ -74,7 +74,7 @@ Further references (From Previous)
 # To retrieve check response:
 ## Using curcl in terminal PS:
 - PS D:\> curl.exe -X POST http://localhost:5000/chat -d "userMessage=Where is Australia?"
-- 
+  
 <img src="curl.png" alt="Android App Screenshot" width="500">
 
 ## using PostMan
