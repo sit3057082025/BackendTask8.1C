@@ -72,7 +72,7 @@ Further references (From Previous)
 
 
 # To retrieve check response:
-## 1. Using curcl in terminal PS (as shown in image below):
+## 1. Using curl in terminal PS (as shown in image below):
 - PS D:\> curl.exe -X POST http://localhost:5000/chat -d "userMessage=Where is Australia?"
   
 <img src="curl.png" alt="Android App Screenshot" width="1000">
