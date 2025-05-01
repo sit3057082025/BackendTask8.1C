@@ -72,17 +72,19 @@ Further references (From Previous)
 
 
 # To retrieve check response:
-## Using curcl in terminal PS:
+## 1. Using curcl in terminal PS (as shown in image below):
 - PS D:\> curl.exe -X POST http://localhost:5000/chat -d "userMessage=Where is Australia?"
   
 <img src="curl.png" alt="Android App Screenshot" width="800">
 
-## using PostMan
+## 2. using PostMan (as shown in image below)
 METHOD: POST
+
 URL: http://localhost:5000/chat
+
 Body: x-www-form-urlencoded
-key: userMessage
-Value: Where is Australia?
+- key: userMessage
+- Value: Where is Australia?
 
 
 <img src="postman.png" alt="Android App Screenshot" width="800">
