@@ -75,7 +75,7 @@ Further references (From Previous)
 ## 1. Using curcl in terminal PS (as shown in image below):
 - PS D:\> curl.exe -X POST http://localhost:5000/chat -d "userMessage=Where is Australia?"
   
-<img src="curl.png" alt="Android App Screenshot" width="800">
+<img src="curl.png" alt="Android App Screenshot" width="1000">
 
 ## 2. using PostMan (as shown in image below)
 METHOD: POST
@@ -87,7 +87,7 @@ Body: x-www-form-urlencoded
 - Value: Where is Australia?
 
 
-<img src="postman.png" alt="Android App Screenshot" width="800">
+<img src="postman.png" alt="Android App Screenshot" width="1000">
 
 
 # In Sample Android app:
