@@ -45,7 +45,10 @@ https://github.com/sit3057082025/BackendApiLLM_T6.1D
 
    - It will ask for hugging face token, provide and press enter. Then select Y.
      
-## 5. To run the code: python main.py (or other file names)
+## 5. To run the code: 
+```python main-directModel.py```
+or 
+```python main-pipeline.py```
 
 
 # Troubleshooting
@@ -66,10 +69,7 @@ Further references (From Previous)
 [https://github.com/sit3057082024/T-6.1D](https://github.com/sit3057082025/T-8.1C)
 
 
-# To Run the Code:
-python main-directModel.py 
-or 
-python main-pipeline.py
+
 
 
 # To retrieve check response:
