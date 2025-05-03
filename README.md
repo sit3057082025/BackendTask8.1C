@@ -49,7 +49,7 @@ https://github.com/sit3057082025/BackendApiLLM_T6.1D
 
    - It will ask for hugging face token, provide and press enter. Then select Y.
      
-## 5. To run the code (In Terminal Skip this if using main-ollama.py and go to stop 6 below): 
+## 5. To run the code in terminal (Skip this if using main-ollama.py and go to stop 6 below): 
 ```python main-directModel.py```
 
 or 
