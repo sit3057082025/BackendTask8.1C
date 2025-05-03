@@ -26,8 +26,8 @@ def prepareLlamaBot():
     pipe = pipeline(
         "text-generation",
         model=MODEL,
-        device_map="auto",
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+        # device_map="auto", #if gpu
+        # torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32, #if you have GPU
         # model_kwargs={"quantization_config": quantization_config}
     )
 
