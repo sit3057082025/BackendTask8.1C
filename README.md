@@ -66,7 +66,7 @@ b) In your new terminal, run:
    
    <img src="screenshots/img_ollama.png" width="700">
 
-c) Then, in your backend (this project) terminal, run
+c) Then, in your backend (this project) terminal (in new from above 6.b terminal), run
    ```python main-ollama.py```
    
 d) Then, either test the route points in postman as below (Steps 7a, 7b).
