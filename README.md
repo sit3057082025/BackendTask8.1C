@@ -12,9 +12,10 @@ https://github.com/sit3057082025/T-8.1C.
 Readme file is useful.
 
 # Instructions:
-- Almost similar to previous setups as in Task6.1D Backend code setup.
+- Almost similar to previous setups as in Task6.1D Backend code setup (For files 1 and 2).
 - Detailed steps are in ReadME of this repo:
 https://github.com/sit3057082025/BackendApiLLM_T6.1D
+- For File 3, you need to install ollama.
 
 ## 1. First clone the repo or download to your local folder.
 ## 2. Run terminal in the project folder.
@@ -35,7 +36,7 @@ https://github.com/sit3057082025/BackendApiLLM_T6.1D
      (source: https://pypi.org/project/transformers/)
    - ```pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126```
      (source: https://pytorch.org/get-started/locally/)
-## 4. Settings with HuggingFace
+## 4. Settings with HuggingFace (Skip this if using main-ollama.py and go to Step 6 below)
    - Signup for Huggingface Account here: https://huggingface.co/
    - Create access token from here: https://huggingface.co/settings/tokens
    - Get Model "google/gemma-3-1b-it" from https://huggingface.co/google/gemma-3-1b-it.
@@ -48,7 +49,7 @@ https://github.com/sit3057082025/BackendApiLLM_T6.1D
 
    - It will ask for hugging face token, provide and press enter. Then select Y.
      
-## 5. To run the code (In Terminal): 
+## 5. To run the code (In Terminal Skip this if using main-ollama.py and go to stop 6 below): 
 ```python main-directModel.py```
 
 or 
@@ -133,3 +134,36 @@ Body: x-www-form-urlencoded
 
 Further references (From Previous)
 [https://github.com/sit3057082025/T-8.1C](https://github.com/sit3057082025/T-8.1C)
+
+
+# References:
+1. Transformers: State-of-the-art Machine Learning for Pytorch, TensorFlow, and JAX.
+https://github.com/huggingface/transformers
+2. A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support
+https://github.com/huggingface/accelerate
+3. Ollama
+https://ollama.com/
+4. How to Build a Flask Python Web Application from Scratch
+https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
+5. https://flask.palletsprojects.com/en/stable/
+6. What is Postman?
+https://www.postman.com/product/what-is-postman/
+https://learning.postman.com/docs/getting-started/overview/
+7. What is curl command? 
+https://developer.ibm.com/articles/what-is-curl-command/
+8. JSONObject
+https://developer.android.com/reference/org/json/JSONObject
+https://www.digitalocean.com/community/tutorials/android-jsonobject-json-parsing
+9. Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 3, Mistral Small 3.1 and other large language models.
+https://github.com/ollama/ollama
+10. What are large language models?
+https://www.cloudflare.com/en-gb/learning/ai/what-is-large-language-model/
+https://www.ibm.com/think/topics/large-language-models
+https://aws.amazon.com/what-is/large-language-model/
+11. venv — Creation of virtual environments
+https://docs.python.org/3/library/venv.html
+12. What’s the Difference Between Frontend and Backend in Application Development?
+https://aws.amazon.com/compare/the-difference-between-frontend-and-backend/
+
+
+
