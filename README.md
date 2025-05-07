@@ -65,6 +65,8 @@ b) In your new terminal, run:
    - You should get:
    
    <img src="screenshots/img_ollama.png" width="700">
+   
+NOTE: You might need to pull model as: ```ollama pull llama3.2:latest```
 
 c) Then, in your backend (this project) terminal (in new from above 6.b terminal), run
    ```python main-ollama.py```
